@@ -1,0 +1,15 @@
+<html>
+
+<body>
+    <h1>Edit Record</h1>
+    <a href='/display'>Display Record</a>
+    <form method="post">
+
+        name:<input type="text" name="txt1" value="<%= db_rows_array[0].product_name %>" required>
+        details:<input type="text" name="txt2" value="<%= db_rows_array[0].product_detail %>" required>
+        price:<input type="text" name="txt3" value="<%= db_rows_array[0].product_price %>" required>
+        <input type='submit'>
+    </form>
+</body>
+
+</html>
